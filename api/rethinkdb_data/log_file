@@ -1,0 +1,19 @@
+2021-08-03T16:15:14.676619926 0.025948s notice: Recursively removing directory /var/www/html/api/rethinkdb_data/tmp
+2021-08-03T16:15:14.680766016 0.030097s notice: Initializing directory /var/www/html/api/rethinkdb_data
+2021-08-03T16:15:14.680903082 0.030230s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/var/www/html/api/rethinkdb_data' did not already exist or is empty.)
+2021-08-03T16:15:14.680926452 0.030254s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-08-03T16:15:14.683367721 0.032695s notice: Running on Linux 5.8.0-1041-aws x86_64
+2021-08-03T16:15:14.683399255 0.032726s notice: Loading data from directory /var/www/html/api/rethinkdb_data
+2021-08-03T16:15:14.723188516 0.072516s info: Automatically using cache size of 961 MB
+2021-08-03T16:15:14.752491386 0.101819s notice: Listening for intracluster connections on port 29015
+2021-08-03T16:15:14.760360095 0.109688s notice: Listening for client driver connections on port 28015
+2021-08-03T16:15:14.760460989 0.109788s notice: Listening for administrative HTTP connections on port 8080
+2021-08-03T16:15:14.760467431 0.109795s notice: Listening on cluster addresses: 127.0.0.1, 172.31.16.207, ::1, fe80::4e7:cfff:fee9:c30a%2
+2021-08-03T16:15:14.760473086 0.109800s notice: Listening on driver addresses: 127.0.0.1, 172.31.16.207, ::1, fe80::4e7:cfff:fee9:c30a%2
+2021-08-03T16:15:14.760478846 0.109806s notice: Listening on http addresses: 127.0.0.1, 172.31.16.207, ::1, fe80::4e7:cfff:fee9:c30a%2
+2021-08-03T16:15:14.760484546 0.109812s notice: Server ready, "ip_172_31_16_207_l6h" d90ea247-855e-46ee-818f-c56683b98d73
+2021-08-03T16:18:14.016611745 179.365939s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-08-03T16:18:14.016678402 179.366006s notice: Shutting down client connections...
+2021-08-03T16:18:14.016764158 179.366091s notice: All client connections closed.
+2021-08-03T16:18:14.016767539 179.366095s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-08-03T16:18:14.018160713 179.367488s notice: Storage engine shut down.
